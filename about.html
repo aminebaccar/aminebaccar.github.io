@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>e-Portfolio Mohamed Amine Baccar</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Basic Page Needs
+================================================== -->
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!-- Scripts -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>$('#myModal').modal()</script>
+<script src="js/formvalidation.js"></script>
+<script src="js/html5placeholder.jquery.js"></script>
+<script src="js/jquery.tweet.js"></script>
+</head>
+<body>
+<!-- Top Green Bar -->
+<div class="topline">
+</div>
+<!-- Top Green Bar Ends-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</a>
+			<div class="nav-collapse collapse">
+				<!-- Menu Links
+			================================================== -->
+			<!-- Left menu links -->
+			<ul class="nav leftmenu">
+					
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="about.html">A propos de moi</a></li>
+			</ul>
+			<!-- Right menu links -->
+			<ul class="nav rightmenu">
+				<li><a href="portofolio.html">Projets</a></li>
+				<li class="lastmenu"><a href="contact.html" class="lastmenu">Contactez-moi</a></li>
+			</ul>
+			<!-- End Menu Links
+			================================================== -->
+				<!-- Pop up form (activated on "hire me" click)-->
+				<div id="myModal" class="modal hide fade hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+						<h3 id="myModalLabel">Send me a note</h3>
+					</div>
+					<div class="modal-body">
+						<div class="done">
+							<div class="alert alert-success">
+								<button type="button" class="close" data-dismiss="alert">x</button>
+								<strong>Message sent successfully!</strong><br/>
+							</div>
+						</div>
+						<div class="form">
+							<form method="post" action="process.php" id="contactform">
+								<table>
+								<tbody>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="name" class="text input-xlarge" placeholder="Name">
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<input type="text" name="email" class="text input-xlarge" placeholder="E-mail address">
+									</td>
+								</tr>
+								<tr class="element texttop">
+									<td class="noborder">
+									</td>
+									<td class="noborder">
+										<textarea name="comment" class="text textarea input-xlarge contactarea" placeholder="Project details, requirements, budget"></textarea>
+									</td>
+								</tr>
+								<tr class="element">
+									<td class="noborder">
+										 &nbsp;
+									</td>
+									<td class="noborder">
+										<input type="submit" id="submit" class="btn" value="Submit">
+										<div class="loading">
+										</div>
+									</td>
+								</tr>
+								</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- End pop up content modal (activated on "hire me" click)-->
+			</div>
+			<!-- Menu Ends
+			================================================== -->
+			<!-- Logo-->
+			<a class="brand logo" href="#">Mohamed Amine<br/> Baccar</a>
+			<!-- End Logo-->
+			<!-- Hire me badge (remove if you don't need one)-->
+			<!-- End Hire me badge-->
+		</div>
+	</div>
+</div>
+<!-- Container starts
+================================================== -->
+<div class="container">
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<h1 class="title">à propos de moi</h1>
+	<div class="titlelinesimple">
+	</div>
+	<div class="row">
+		<div class="span8">
+			<p>
+				<img src="img/img.png" alt="" style="float:left;margin-right:20px;width: 100px;margin-top: 16px;border-radius: 90px;"> Avec un amour 
+				inné de l'écriture de code pour résoudre des problèmes complexes, 
+				le développeur de logiciels Mohamed Amine Baccar programme depuis l'âge de 16 ans. Il a 
+				appris lui-même à coder et a réussi à développer son propre programme pour les microchips PIC en C. 
+				Son amour pour les applications innovantes et créatives lui a permis de devenir une référence technique pour son équipe chez Vermeg, où il travaille depuis 2019. 
+			</p>
+		</div>
+		<div class="span8">
+			<p>
+				Amine a étudié à FSEG Sfax, 
+				où il a obtenu sa Licence Fondamentale en Informatique de gestion où il a acquis de nombreuses compétences précieuses telles que la programmation orientée objet, la modélisation UML, la gestion de bases de données, etc.
+				Il a effectué un stage dans une startup locale dans sa ville natale, où il a réussi à créer un projet de sécurité incendie basé sur l'Internet Of Things, opposé aux options du marché, il a livré un produit robuste qui est toujours actuellement commercialisé.			</p>
+		</div>
+	</div>
+	<div class="break">
+	</div>
+	<br/>
+	<div class="row">
+		<div class="span4">
+			<img src="img/arrow.png" alt="" style="margin-left: 40px;">
+		</div>
+		<div class="span4">
+			<h4 class="highlight">Programmation Java</h4>
+			<p>
+				Avoir un niveau avancé en programmation orientée objet a permis à Amine de se familiariser notoirement avec les détails profonds de Java 8, l'injection de dépendances, Design Patterns et de nombreuses API utiles telles que reflect API, Stream, Guava, etc...			</p>
+		</div>
+		<div class="span4">
+			<h4 class="highlight">Automatisation des tests</h4>
+			<p>
+				Avoir une bonne quantité de connaissances en Java a permis à Amine de capturer facilement les concepts d'automatisation des tests avec Selenium et Cucumber et les bibliothèques de test Java telles que Junit, TestNG et FluentAssertions		</div>
+		<div class="span4">
+			<h4 class="highlight">Consulting</h4>
+			<p>
+				Fort d'une expérience courte mais efficace en automatisation de tests, Amine maîtrise le framework sur lequel il a travaillé et dirige une petite équipe de 3 personnes et leur propose des conseils et aide au dépannage tout en travaillant en tant qu'analyste dans un nouveau projet de refactoring.			</p>
+		</div>
+	</div>
+	<!-- Footer 
+================================================== -->
+	<div class="footerli">
+	</div>
+	<div class="tweetarea">
+		<div class="tweettext">
+			<div class="row">
+				<div class="span-one-third">
+					<div class="span-one-third">
+						<i>Portfolio personnel, developpé dans le cadre d'un projet universitaire.</i>
+					</div>
+				</div>
+				<div class="span-one-third">
+					<div class="centermargin" style="margin-left: 100px;">
+						<span>
+							<a href="#"><img height="48px" width="48px" src="./img/socialicons/github.png"/></a>
+						</span>
+						<span>
+							<a href="#"><img height="48px" width="48px" src="./img/socialicons/linkedin.png"/></a>
+						</span>
+				</div>
+			</div>
+			<div class="span-one-third center">
+				Vous voulez me contacter? <br/>Envoyez moi un E-mail<br/>
+			   <span class="small"><a href="mailto:mohamedaminebaccar@gmail.com">mohamedaminebaccar@gmail.com</a></span>
+		   </div>
+		</div>
+	</div>
+	<div class="footer center">
+		Made with ❤️ by Mohamed Amine Baccar
+   </div>
+</div>
+<!-- Ended Container-->
+<div class="footerend">
+</div>
+</body>
+</html>
